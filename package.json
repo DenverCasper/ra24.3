@@ -2,25 +2,28 @@
   "name": "ra24.3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js",
-    "build": "build server.js"
+  "keywords": [],
+  "homepage": "https://github.com/DenverCasper/ra24.3#readme",
+  "bugs": {
+    "url": "https://github.com/DenverCasper/ra24.3/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DenverCasper/ra24.3.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/DenverCasper/ra24.3/issues"
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node server.js"
   },
-  "homepage": "https://github.com/DenverCasper/ra24.3#readme",
   "dependencies": {
+    "cli": "^1.0.1",
     "express": "^5.1.0",
+    "firebase": "^11.8.1",
+    "jest": "^29.7.0",
     "supertest": "^7.1.1"
   }
 }

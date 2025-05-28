@@ -6,7 +6,6 @@
         "source": "server.js",
         "function": "server"
       }
-    ]"
     ]
   }
 }

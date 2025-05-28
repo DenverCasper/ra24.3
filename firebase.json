@@ -4,7 +4,7 @@
     "rewrites": [
       {
         "source": "server.js",
-        "function": "server"
+        "function": "app"
       }
     ]
   }

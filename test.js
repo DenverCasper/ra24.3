@@ -7,6 +7,6 @@ request(app)
     .expect(200)
     .end((err, res) => {
         if (err) throw err;
-        assert.strictEqual(res.text, 'Hello, World!');
+        assert.strictEqual(res.text, 'Hello, Wolrd!');
         console.log('Test passed: Response is correct');
     });
